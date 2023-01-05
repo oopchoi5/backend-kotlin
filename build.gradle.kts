@@ -23,6 +23,12 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    // https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+    implementation("io.jsonwebtoken:jjwt:0.9.1")
+    // https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+    implementation("javax.xml.bind:jaxb-api:2.3.0")
+
     runtimeOnly("com.mysql:mysql-connector-j")
     // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
     implementation("org.mariadb.jdbc:mariadb-java-client:3.1.0")
